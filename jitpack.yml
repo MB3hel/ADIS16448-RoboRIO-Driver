@@ -1,4 +1,5 @@
 jdk:
   - openjdk11
 before_install:
+   - chmod +x ./gradlew
    - ./gradlew installRoboRioToolchain\
