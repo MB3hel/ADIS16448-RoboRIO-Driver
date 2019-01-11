@@ -4,3 +4,6 @@ allprojects {
     }
 }
 
+subprojects{
+	apply plugin: 'maven'
+}
